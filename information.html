@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cafe Recursion のインフォメーションページです。">
+  <!--Reset/Project styles-->
+  <link rel="stylesheet" href="styles/destyle.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Hina+Mincho&display=swap" rel="stylesheet">
+  <!--Bootstrap Icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Information | Cafe Recursion</title>
+  <style>
+    .nothing-you-could-do { font-family: "Nothing You Could Do", cursive; }
+    .hina-mincho-regular { font-family: "Hina Mincho", serif; }
+    .section-title { font-size: clamp(28px, 4vw, 48px); }
+    .divider { border-top: 1px solid #ddd; margin: 32px 0; }
+    .info-label { font-weight: 600; }
+    .muted { color:#666; }
+  </style>
+</head>
+<body>
+  <!--ナビゲーション-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand nothing-you-could-do" href="index.html">Cafe Recursion</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nothing-you-could-do" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="drink.html">Drink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sweets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="food.html">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="information.html">Information</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!--見出し-->
+  <header class="container py-5 text-center">
+    <h1 class="nothing-you-could-do section-title">Information</h1>
+  </header>
+
+  <main class="container pb-5" style="max-width: 920px;">
+    <!--Hours-->
+    <section class="mb-5">
+      <div class="divider"></div>
+      <h2 class="nothing-you-could-do fs-2 mb-3">Hours</h2>
+      <p class="mb-1">Mon–Fri: 10:00 – 19:00 <span class="muted">(L.O. 18:30)</span></p>
+      <p class="mb-1">Sat–Sun: 09:00 – 20:00 <span class="muted">(L.O. 19:30)</span></p>
+      <p class="mb-0">Closed: Every Tuesday</p>
+    </section>
+
+    <!--Location & Contact-->
+    <section class="mb-5">
+      <div class="divider"></div>
+      <h2 class="nothing-you-could-do fs-2 mb-3">Location &amp; Contact</h2>
+
+      <div class="row g-4 align-items-start">
+        <div class="col-12 col-md-7">
+          <p class="mb-1">〒150-0044 東京都渋谷区円山町9-1</p>
+          <p class="mb-3">Phone: 03-XXXX-XXXX</p>
+          <div class="d-flex gap-3">
+            <a class="text-dark" aria-label="Instagram" href="#"><i class="bi bi-instagram fs-4"></i></a>
+            <a class="text-dark" aria-label="Twitter/X" href="#"><i class="bi bi-twitter-x fs-4"></i></a>
+            <a class="text-dark" aria-label="Email" href="mailto:info@example.com"><i class="bi bi-envelope fs-4"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <!--Googleマップ埋め込み-->
+          <div class="ratio ratio-4x3">
+            <iframe
+              src="https://www.google.com/maps?q=Shibuya%20Tokyo&output=embed"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Concept-->
+    <section class="mb-5">
+      <div class="divider"></div>
+      <h2 class="nothing-you-could-do fs-2 mb-3">Our Concept</h2>
+      <p class="hina-mincho-regular lh-lg">
+        Cafe Recursionは、静かな空間で、ゆったりとした時間と季節のスイーツ・フードそしてこだわりのドリンクをお楽しみいただけるカフェです。
+        日常の少し手前でほっとひと息。心地よい音楽と香りを添えてお待ちしております。
+      </p>
+    </section>
+  </main>
+
+  <footer class="py-4 text-center text-muted">
+    <small>&copy; Cafe Recursion</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
