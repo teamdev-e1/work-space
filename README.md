@@ -1,7 +1,7 @@
 # Cafe Recursion
 ## プロジェクト概要
 Recursion (https://recursionist.io/) の初心者向けチーム開発で架空のカフェのWebページを作成しました。<br>
-こちら (デプロイ後のURL)からアクセスできます。
+こちら (https://teamdev-e1.github.io/work-space/) からアクセスできます。
 
 ## 各ページの紹介
 | Home | Drink |
